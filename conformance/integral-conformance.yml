@@ -1,0 +1,26 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.integral.com/
+docs: https://www.integral.com/fx-global-code-disclaimer/
+standards:
+  - id: soc2-type-ii
+    conforms: true
+    evidence: 'Homepage states "SOC 2 Type II certified for security & operational integrity"'
+  - id: fx-global-code
+    conforms: true
+    evidence: 'Publishes an FX Global Code disclaimer (https://www.integral.com/fx-global-code-disclaimer/); adheres to the FX Global Code of Conduct'
+  - id: fix-protocol
+    conforms: true
+    evidence: 'Homepage: API-first platform supports the FIX protocol for institutional trading connectivity'
+  - id: itch-protocol
+    conforms: true
+    evidence: 'Homepage: platform supports the ITCH market-data protocol'
+  - id: oauth2
+    conforms: false
+    evidence: 'No public OpenAPI or OAuth documentation; APIs are institutional/gated (proprietary REST + WebSocket)'
+  - id: openid-connect
+    conforms: false
+    evidence: 'No /.well-known/openid-configuration (404)'
+  - id: rfc9457-problem-details
+    conforms: false
+    evidence: 'No public API spec to evaluate error format'

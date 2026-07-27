@@ -1,8 +1,24 @@
 aid: integral
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/integral.png
 name: Integral
-description: 'Integral is a company surfaced as a portfolio company of accel, electric-capital, general-catalyst
-  and added to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Integral (Integral Development Corp.) is a technology provider for institutional
+  currency and digital-asset trading. Its cloud-native, API-first platform delivers liquidity
+  aggregation, execution management, pricing engines, distribution, risk management, settlement,
+  and market data across foreign exchange, CFDs, precious metals, and crypto. Integral serves
+  banks, institutional and retail brokers, precious-metals businesses, and crypto trading firms,
+  and is SOC 2 Type II certified with connectivity over FIX, ITCH, and proprietary REST and
+  WebSocket APIs. Surfaced as a portfolio company of Accel, Electric Capital, and General Catalyst.'
 url: https://raw.githubusercontent.com/api-evangelist/integral/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Fintech
+- Foreign Exchange
+- Trading
+- Digital Assets
+- Institutional
+- Capital Markets
+- Market Data
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -27,3 +49,26 @@ maintainers:
 common:
 - type: Website
   url: https://www.integral.com/
+- type: Blog
+  url: https://www.integral.com/blog/
+- type: Support
+  url: https://www.integral.com/contact/
+- type: PrivacyPolicy
+  url: https://www.integral.com/privacy-policy/
+- type: SignUp
+  url: https://www.integral.com/demo/
+- type: Compliance
+  url: https://www.integral.com/
+- type: Conformance
+  url: conformance/integral-conformance.yml
+- type: DomainSecurity
+  url: security/integral-domain-security.yml
+- type: WellKnown
+  url: well-known/integral-well-known.yml
+- type: LLMsTxt
+  url: llms/integral-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

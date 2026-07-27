@@ -1,0 +1,33 @@
+# Integral
+
+> Integral (Integral Development Corp.) is a technology provider for institutional currency and digital-asset trading. Its cloud-native, API-first platform delivers liquidity aggregation, execution management, pricing engines, distribution, risk management, settlement, and market data across FX, CFDs, precious metals, and crypto. It is SOC 2 Type II certified and connects via FIX, ITCH, and proprietary REST and WebSocket APIs.
+
+## Products
+
+- [Integral FX](https://www.integral.com/products/fx/): Trading automation for institutional foreign exchange, CFDs, and precious metals.
+- [Integral Digital](https://www.integral.com/products/digital/): Institutional-grade connectivity and execution for digital/crypto assets.
+- [PrimeOne](https://www.primeone.net/): Stablecoin-based prime brokerage platform for cryptocurrency.
+
+## FX capabilities
+
+- [Liquidity Aggregation](https://www.integral.com/products/fx/liquidity-aggregation/)
+- [Execution Management System (EMS)](https://www.integral.com/products/fx/ems/)
+- [Price Engine](https://www.integral.com/products/fx/price-engine/)
+- [Distribution](https://www.integral.com/products/fx/distribution/)
+- [Risk Management](https://www.integral.com/products/fx/risk-management/)
+- [Analytics](https://www.integral.com/products/fx/analytics/)
+- [MT4/MT5 Connectivity](https://www.integral.com/products/fx/mt4-mt5-connectivity/)
+- [Market Data](https://www.integral.com/products/fx/market-data/)
+
+## Company
+
+- [About](https://www.integral.com/about/)
+- [News](https://www.integral.com/news/)
+- [Blog](https://www.integral.com/blog/)
+- [Careers](https://www.integral.com/careers/)
+- [Contact](https://www.integral.com/contact/)
+- [Privacy Policy](https://www.integral.com/privacy-policy/)
+
+## APIs
+
+Integral's trading APIs (FIX, ITCH, proprietary REST, and WebSocket) are provisioned to institutional clients through onboarding; there is no public developer portal, OpenAPI document, or self-serve API key. Request access via the demo/contact flow at https://www.integral.com/demo/.
