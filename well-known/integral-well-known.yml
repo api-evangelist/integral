@@ -2,7 +2,10 @@ generated: '2026-07-19'
 method: searched
 source: live probe of /.well-known/ on the production host
 host: https://www.integral.com
-documents:
+notes: No .well-known discovery documents published; institutional trading APIs are gated behind sales/onboarding.
+hosts:
+- host: https://www.integral.com
+  documents:
   - path: /.well-known/security.txt
     status: 404
   - path: /.well-known/openid-configuration
@@ -13,4 +16,8 @@ documents:
     status: 404
   - path: /.well-known/ai-plugin.json
     status: 404
-notes: No .well-known discovery documents published; institutional trading APIs are gated behind sales/onboarding.
+x-shape-fix:
+  converted: '2026-08-20'
+  from: documents
+  note: Rewritten into hosts[] -> documents[], the only shape well_known_docs() in score.rb reads. A served
+    .well-known surface recorded in any other shape scores as absent.
